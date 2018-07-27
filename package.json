@@ -1,5 +1,5 @@
 {
-  "name": "ang2-conduit",
+  "name": "angular-ngxs-conduit",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
@@ -7,7 +7,7 @@
     "start": "ng serve",
     "build": "ng build --prod  --base-href ./ && cp CNAME dist/CNAME",
     "test": "ng test",
-    "lint": "ng lint --force",
+    "lint": "ng lint angular-ngxs-conduit angular-ngxs-conduit-e2e --force",
     "e2e": "ng e2e"
   },
   "pre-commit": [
